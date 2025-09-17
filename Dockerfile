@@ -7,6 +7,7 @@ ENV ENV_NAME=prod
 ENV CS571_PUBLIC_CONFIG_PATH=/cs571/config.prod.public
 ENV CS571_PRIVATE_CONFIG_PATH=/cs571/config.prod.secret
 ENV PORT=49999
+ENV PRODUCT=f25-ice
 
 COPY LICENSE LICENSE
 COPY tsconfig.json tsconfig.json
